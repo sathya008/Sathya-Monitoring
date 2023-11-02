@@ -41,12 +41,12 @@ A cloud based Android Monitoring Tool, powered by NodeJS
     - `git clone https://github.com/XploitWizer/XploitSPY.git`
     
 5. Go to server directory
-   - `cd XploitSPY/server/`
+   - `cd SPY/server/`
 
 5. In the server directory, run these commands
     - `npm install` <- install dependencies
     - `pm2 start index.js` <-- start the script
-    - `pm2 startup` <- to run XploitSPY on startup
+    - `pm2 startup` <- to run Spy on startup
 
 6. Find your public IP `curl ifconfig.me`
 
@@ -56,23 +56,9 @@ A cloud based Android Monitoring Tool, powered by NodeJS
      - `Username : admin`
      - `Password : password`
     
-It's recommended to run XploitSPY behind a reverse proxy such as [NGINX](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
-
-
-## Buy us a Coffee
-   Bitcoin : 3HwzRLbZxFVxyZzLoEHFnoB5RVKfzwxDbf
-   
-   Paypal : https://paypal.me/raomk
-
-
-
 ## Disclaimer
-<b>XploitWizer Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
-XploitSPY is built for Educational Purpose. Use at your own Risk.</b>
+<b>It Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
+It built for Educational Purpose. Use at your own Risk.</b>
 
-<br>
-<p align="center">Made with ❤️ By <a href="https://xploitwizer.com">XploitWizer</a></p>
 
-## Credits
 
-<b> Credits to <a href="https://github.com/D3VL">D3VL</a> for the original code base this repository is based on at <a href="https://github.com/D3VL/L3MON">L3MON</a>
